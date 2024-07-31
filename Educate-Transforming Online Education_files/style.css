@@ -1,0 +1,172 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.navbar{
+    display: flex;
+    overflow: hidden;
+   
+
+}
+.nav-list{
+  width:50% ;
+ 
+  display: flex;
+  align-items: center;
+  
+}
+
+.logo{
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.nav-list li{
+    list-style: none;
+    padding: 20px;
+    
+
+}
+.nav-list li a{
+    text-decoration: none;
+    color: white;
+
+}
+.nav-list li a:hover{
+   
+   color: grey;
+}
+ .logo img{
+    height: 33px;
+    width: 33px;
+    border-radius: 50px;
+    border: 3px,solid white;
+}
+.rightNav{
+   
+    width: 50%;
+    text-align: right;
+}
+#search{
+    padding:5px;
+    border:2px solid black;
+    border-radius: 10px;
+    font-size: 17px;
+    
+    
+  }
+  .background{
+   background: rgba(0 ,0 ,0 ,0.7) url('img3.jpg');
+    background-size: cover;
+    background-blend-mode: darken;
+ 
+}
+.firstsection{
+    height: 100vh;
+}
+
+.box-main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+    margin: auto;
+    max-width: 50%;
+    
+    height:50%;
+
+
+}
+.firsthalf{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    width: 80%;
+}
+.secondthalf {
+    width: 30%;
+   
+}
+.secondthalf img{
+    width: 170%;
+    display:block;
+    margin:auto;  
+      padding:12%;
+      
+    
+}
+.big-text{
+font-size: 20px;
+    
+}
+.small-text{
+    font-size: 20px;
+    
+}
+.btn{
+    padding:8px 20px;
+    border-radius: 10px ;
+    background: none;
+    color: white;
+    border: 2px solid black;
+
+    font-size: 18px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-right:3% ;
+  margin-top:1.5%;
+
+}
+.sec1{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+
+}
+.sec3{
+    font-size: 20px;
+    height: 400px;
+    justify-content: center;
+    text-align: center;
+    margin-top: 3%;
+   
+   
+}
+.sec4{
+    font-size: 20px;
+    max-width: 30px;
+    margin-top: 30%;
+
+    
+}
+.img10{
+    height: 220px;
+    border: 3px solid black;
+    width: 330px;
+    margin-right: 33px;
+    margin-top:  50px ;
+    margin-left: 30px;
+    margin-bottom: 30px;
+     
+}
+.sec2{
+    display: flex;
+    justify-content: center;
+}
+.sec5{
+    justify-content: center;
+    text-align: center;
+    display: flex;
+    padding: 1.6%;
+    font-size: 30px;
+    font-family: math;
+}
+
+.sec10{
+    display: flex;
+    justify-content: center;
+    flex-direction: row-reverse;
+}
+
